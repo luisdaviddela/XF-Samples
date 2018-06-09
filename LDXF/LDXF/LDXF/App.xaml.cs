@@ -11,7 +11,7 @@ namespace LDXF
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new TabApp();
 		}
 
 		protected override void OnStart ()

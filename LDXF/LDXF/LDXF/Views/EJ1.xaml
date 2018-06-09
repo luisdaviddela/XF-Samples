@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Border Radius"
+             x:Class="LDXF.EJ1">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Border Radius" VerticalOptions="Center"/>
+            <Button Text="Border radius 10" BorderRadius="10" BorderColor="Red" BorderWidth="4"/>
+            <Button Text="Border radius 20" BorderRadius="20" BorderColor="Green" BorderWidth="3"/>
+            <Button Text="Border radius 30" BorderRadius="30" TextColor="White" BackgroundColor="Blue" BorderColor="Azure" BorderWidth="3"/>
+            <Button Text="Border radius 40" BorderRadius="40" BackgroundColor="BurlyWood"/>
+            <Button Text="Border radius 50" BorderRadius="50" BackgroundColor="LawnGreen"/>
+            <Button Text="Border radius 100" BorderRadius="100" BackgroundColor="YellowGreen"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
