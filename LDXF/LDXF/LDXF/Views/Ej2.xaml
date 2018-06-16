@@ -5,7 +5,7 @@
              x:Class="LDXF.Ej2">
     <ScrollView>
         <StackLayout>
-            <Entry MaxLength="2"/>
+            <Entry MaxLength="2" InputTransparent="True"/>
 
         </StackLayout>
     </ScrollView>
