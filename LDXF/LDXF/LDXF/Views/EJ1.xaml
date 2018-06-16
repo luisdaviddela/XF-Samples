@@ -5,13 +5,26 @@
              x:Class="LDXF.EJ1">
     <ScrollView>
         <StackLayout>
-            <Label Text="Border Radius" VerticalOptions="Center"/>
+            <Label Text="Border Radius" VerticalOptions="Center" FontAttributes="Bold"/>
             <Button Text="Border radius 10" BorderRadius="10" BorderColor="Red" BorderWidth="4"/>
             <Button Text="Border radius 20" BorderRadius="20" BorderColor="Green" BorderWidth="3"/>
             <Button Text="Border radius 30" BorderRadius="30" TextColor="White" BackgroundColor="Blue" BorderColor="Azure" BorderWidth="3"/>
-            <Button Text="Border radius 40" BorderRadius="40" BackgroundColor="BurlyWood"/>
+            <Button Text="Border radius 40" BorderRadius="40" BackgroundColor="BurlyWood" />
             <Button Text="Border radius 50" BorderRadius="50" BackgroundColor="LawnGreen"/>
             <Button Text="Border radius 100" BorderRadius="100" BackgroundColor="YellowGreen"/>
+
+
+            <Label Text="Corner Radius" VerticalOptions="Center" FontAttributes="Bold"/>
+            <Button Text="Corner Radius 3" BackgroundColor="Blue" CornerRadius="3"/>
+            <Button Text="Corner Radius 10" BackgroundColor="BlueViolet" CornerRadius="10"/>
+            <Button Text="Corner Radius 20" BackgroundColor="CadetBlue" CornerRadius="20"/>
+            <Button Text="Corner Radius 40" BackgroundColor="CornflowerBlue" CornerRadius="40"/>
+            <Button Text="Corner Radius 50" BackgroundColor="DarkBlue" CornerRadius="50"/>
+            <Button Text="Corner Radius 100" BackgroundColor="DeepSkyBlue" CornerRadius="100"/>
+
+            <Label Text="Border vs Corner " VerticalOptions="Center" FontAttributes="Bold"/>
+            <Button Text="Border radius 100" BorderRadius="100" BackgroundColor="YellowGreen"/>
+            <Button Text="Corner Radius 3" BackgroundColor="DeepSkyBlue" CornerRadius="100"/>
         </StackLayout>
     </ScrollView>
 

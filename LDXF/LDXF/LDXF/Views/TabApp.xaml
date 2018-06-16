@@ -5,4 +5,5 @@
              x:Class="LDXF.TabApp">
   <!--Pages can be added as references or inline-->
     <local:EJ1></local:EJ1>
+    <local:Ej2></local:Ej2>
 </TabbedPage>
