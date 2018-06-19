@@ -5,9 +5,9 @@
              x:Class="LDXF.Ej2">
     <ScrollView>
         <StackLayout>
-            <Entry MaxLength="2" />
-            <Entry MaxLength="5" InputTransparent="True"/>
-            <Entry MaxLength="5" HorizontalTextAlignment="Center"/>
+            <Entry Placeholder="Max 2" MaxLength="2" />
+            <Entry Placeholder="Input transparent" MaxLength="5" InputTransparent="True"/>
+            <Entry Placeholder="Max 5" MaxLength="5" HorizontalTextAlignment="Center"/>
             <Entry Placeholder="Numeric" Keyboard="Numeric" />
             <Entry Placeholder="Url" Keyboard="Url" />
             <Entry Placeholder="Telephone" Keyboard="Telephone" />
