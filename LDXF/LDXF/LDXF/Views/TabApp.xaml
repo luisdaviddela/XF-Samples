@@ -4,7 +4,9 @@
             xmlns:local="clr-namespace:LDXF"
              x:Class="LDXF.TabApp">
   <!--Pages can be added as references or inline-->
+    <local:LikeWebContent></local:LikeWebContent>
     <local:LoginSample></local:LoginSample>
+    <local:LoginSampleV2></local:LoginSampleV2>
     <local:EJ1></local:EJ1>
     <local:Ej2></local:Ej2>
     <local:Ej3></local:Ej3>

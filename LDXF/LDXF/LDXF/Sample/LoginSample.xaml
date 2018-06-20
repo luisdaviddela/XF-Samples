@@ -8,7 +8,6 @@
             <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Center" Padding="30">
                 <Label FontSize="Large" TextColor="WhiteSmoke" Text="Iniciar sesión" FontAttributes="Bold"/>
                 
-
                 <!--SEGUNDO FLEX-->
                 <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Center" BackgroundColor="#374641" >
                     <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignContent="Start" JustifyContent="Center">

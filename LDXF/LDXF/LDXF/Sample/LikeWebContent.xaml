@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BindingContext="Like Web Page"
+             Title="Web Desing Sample"
+             x:Class="LDXF.LikeWebContent">
+    <ScrollView>
+        <FlexLayout Direction="Column" BackgroundColor=" #7dcea0 ">
+            <FlexLayout Direction="Column" FlexLayout.Grow="1">
+                <Image  Source="webdesign.jpg"/>
+                <Label Text="¿Que es el diseño web?" FontAttributes="Bold" FontSize="Large" TextColor="White"/>
+            </FlexLayout>
+            <FlexLayout FlexLayout.Grow="1" Direction="Column" CascadeInputTransparent="True">
+                <ScrollView>
+                    <FlexLayout FlexLayout.Grow="1" Direction="Column" CascadeInputTransparent="True">
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                    </FlexLayout>
+                </ScrollView>
+            </FlexLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

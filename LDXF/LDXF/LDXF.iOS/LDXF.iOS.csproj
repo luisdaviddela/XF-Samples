@@ -159,4 +159,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\XamSharpLogo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\webdesign.jpg" />
+  </ItemGroup>
 </Project>
