@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Inicio de sesión"
+             x:Class="LDXF.LoginSample">
+    <ScrollView>
+        <FlexLayout Direction="Column" BackgroundColor="#445952" Padding="30">
+            <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Center" Padding="30">
+                <Label FontSize="Large" TextColor="WhiteSmoke" Text="Iniciar sesión" FontAttributes="Bold"/>
+                
+
+                <!--SEGUNDO FLEX-->
+                <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Center" BackgroundColor="#374641" >
+                    <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignContent="Start" JustifyContent="Center">
+                        <StackLayout Padding="30" Spacing="20">
+                            <Image Source="XamSharpLogo.jpg" HeightRequest="120"/>
+                            <Label Text="Escribe tu usuario:" TextColor="White" />
+                            <Entry TextColor="White" Placeholder="luisdavid@xamsharp.com" MaxLength="5" BackgroundColor="White" Opacity=".1"/>
+                            <Label Text="contraseña:" TextColor="White" />
+                            <Entry TextColor="White" IsPassword="True" BackgroundColor="White" Opacity=".1"/>
+                        </StackLayout>
+                    </FlexLayout>
+                    <Button Text="Connect" TextColor="White" BackgroundColor=" #6adaa7 " CornerRadius="30"/>
+                </FlexLayout>
+                <!--TERMINA SEGUNDO FLEX-->
+                <Label FontSize="Micro" TextColor="WhiteSmoke" Text="¿No tienes cuenta? Regístrate..." FontAttributes="Italic"/>
+            </FlexLayout>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

@@ -156,4 +156,7 @@
       <Name>LDXF</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\XamSharpLogo.jpg" />
+  </ItemGroup>
 </Project>

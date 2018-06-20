@@ -9,7 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Ej3.xaml">
+    <EmbeddedResource Update="Views\Ej3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Sample\LoginSample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Ej2.xaml">
