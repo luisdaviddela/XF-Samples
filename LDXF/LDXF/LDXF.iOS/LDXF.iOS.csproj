@@ -174,4 +174,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\exito.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\li.png" />
+  </ItemGroup>
 </Project>

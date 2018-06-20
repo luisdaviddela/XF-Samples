@@ -31,9 +31,11 @@
                 </Grid.RowDefinitions>
 
                 <Button Image="exito.png" Text="Registrar" Grid.Row="0" Grid.Column="1" BorderRadius="20" BackgroundColor=" #2ecc71 " BorderColor=" #16a085 " BorderWidth="1" TextColor="White" FontAttributes="Bold"/>
-                <Image Source="fb.png" Grid.Row="1" Grid.Column="0" HeightRequest="10"/>
-                <Image Source="gp.png" Grid.Row="1" Grid.Column="1" HeightRequest="10"/>
-                <Image Source="tw.png" Grid.Row="1" Grid.Column="2" HeightRequest="10"/>
+                <Image x:Name="fb" Source="fb.png" Grid.Row="1" Grid.Column="0" HeightRequest="10"/>
+                <Image x:Name="gp" Source="gp.png" Grid.Row="1" Grid.Column="1" HeightRequest="10"/>
+                <Image x:Name="tw" Source="tw.png" Grid.Row="1" Grid.Column="2" HeightRequest="10"/>
+                <Image x:Name="li" Source="li.png" Grid.Row="1" Grid.Column="3" HeightRequest="10"/>
+                
             </Grid>
             
         </Grid>
