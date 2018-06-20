@@ -162,4 +162,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\webdesign.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\exito.png" />
+  </ItemGroup>
 </Project>

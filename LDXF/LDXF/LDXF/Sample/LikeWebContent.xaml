@@ -5,25 +5,21 @@
              Title="Web Desing Sample"
              x:Class="LDXF.LikeWebContent">
     <ScrollView>
-        <FlexLayout Direction="Column" BackgroundColor=" #7dcea0 ">
-            <FlexLayout Direction="Column" FlexLayout.Grow="1">
+        <FlexLayout Direction="Column" BackgroundColor="#0e6655">
+            <FlexLayout Direction="Column" FlexLayout.Grow="1" >
                 <Image  Source="webdesign.jpg"/>
-                <Label Text="¿Que es el diseño web?" FontAttributes="Bold" FontSize="Large" TextColor="White"/>
+                <Label Text="¿Que es el diseño web?" FontAttributes="Bold" FontSize="Large" TextColor="White" Opacity=".3"/>
             </FlexLayout>
             <FlexLayout FlexLayout.Grow="1" Direction="Column" CascadeInputTransparent="True">
                 <ScrollView>
-                    <FlexLayout FlexLayout.Grow="1" Direction="Column" CascadeInputTransparent="True">
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
-                        <Label Text="Encontrar ese color perfecto con nuestro selector de color y descubrir bellas armonías de color, tintes, matices y tonos; códigos de color de entrada Hex, los valores RGB y HSL, y generar HTML, CSS y estilos SCSS. "/>
+                    <FlexLayout FlexLayout.Grow="1" Direction="Column" CascadeInputTransparent="True" AlignContent="Center" JustifyContent="SpaceAround">
+                        <!--introducción-->
+                        <Label TextColor="White" Text="Hola a todos los lectores del blog! como saben hace tiempo se lanzó Xamarin.Forms 3.0 y con ello integraron el contenedor FlexLayout y si eres un desarrollador web puede que te suene un poco familiar, así es! FlexBox… un modulo de diseño de CSS(para desarrollo web). Si aún no estabas relacionado con nada de esto no te preocupes que daremos un vistazo a lo que nos referimos 😉"/>
+                        <!--titulo-->
+                        <Label Text="Introducción y requerimientos" FontAttributes="Bold" FontSize="Large" TextColor="White"/>
+                        <!--texto-->
+                        <Label TextColor="White" Text="Bueno, FlexLayout es un contenedor de elementos para Xamarin.Forms que en lo tiene parecido varios contenedores, pero en lo personal más con: StackLayout Grid FlexLayout nos ayuda a acomodar y alinear de madera distribuida(o no), los elementos de una pantalla y tiene la capacidad de envolverlos si hubiera muchos para que quepan en una sola fila o columna, haciendo nuestra vista responsiva, cuenta con muchas opciones para la orientación  del dispositivo y así adaptarse a diferentes tamaños de pantalla."/>
+                        <Label TextColor="White" Text="Una de las propiedades más importantes es Direction, dicha propiedad contiene los siguientes valores Row Column RowReverse ColumnRevers Veremos las más usadas, cuando usamos el valor 'Row'  en la propiedad Direction, indicamos que los elementos dentro del contenedor se colocarán en forma de Stack, de arriba para abajo. Cuando usamos el valor 'Column' en la propiedad Direction indicamos que los elementos dentro del contenedor se colocarán en forma ordenada de izquierda a derecha"/>
                     </FlexLayout>
                 </ScrollView>
             </FlexLayout>
