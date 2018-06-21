@@ -3,10 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LDXF.Ej3">
     <ScrollView>
-        <StackLayout>
-            <Label Text="Normal" FontFamily="Times New Roman"/>
-            <Label Text="Normal"/>
-            <Picker x:Name="yu" FontFamily="Times New Roman"/>
+        <StackLayout BackgroundColor="#0B0B61" Padding="20" Spacing="11">
+            <Label TextColor="LightYellow" Text="Opacity de .1 para la imagen y de .4 para este Label" 
+                   Opacity=".4"/>
+            <Image Source="XamSharpLogo.jpg"
+                   Opacity=".1"/>
+            
+            
+            <Button 
+                Text="Aceptar"
+                BorderWidth="1" 
+                BorderColor=" #16a085 " 
+                BorderRadius="20" 
+                Image="exito.png"/>
+            <Button 
+                Text="Rechazar"
+                BorderWidth="1" 
+                BorderColor="DarkRed" 
+                BorderRadius="20" 
+                Image="error.png"/>
+            
+            
+            
+            <Entry Placeholder="Máximo 5 caracteres" 
+                   MaxLength="5"/>
+            
+            <Button
+                Text="CornerRadius 25"
+                CornerRadius="25"
+                BackgroundColor="DarkBlue"
+                TextColor="White"/>
+
+            <Button Text="Border Radius 25" 
+                    BorderRadius="25" 
+                    BorderColor="#4000FF"
+                    BorderWidth="5"
+                    BackgroundColor="Green" 
+                    TextColor="White"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

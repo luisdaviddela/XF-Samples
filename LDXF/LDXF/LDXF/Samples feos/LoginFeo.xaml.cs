@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace LDXF
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Ej3 : ContentPage
+	public partial class LoginFeo : ContentPage
 	{
-		public Ej3 ()
+		public LoginFeo ()
 		{
 			InitializeComponent ();
-         
 		}
 	}
 }

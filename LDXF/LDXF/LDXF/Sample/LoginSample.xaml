@@ -19,7 +19,7 @@
                             <Entry TextColor="White" IsPassword="True" BackgroundColor="White" Opacity=".1"/>
                         </StackLayout>
                     </FlexLayout>
-                    <Button Text="Connect" TextColor="White" BackgroundColor=" #6adaa7 " CornerRadius="30"/>
+                    <Button Text="Connect" TextColor="White" BackgroundColor=" #6adaa7 " CornerRadius="10"/>
                 </FlexLayout>
                 <!--TERMINA SEGUNDO FLEX-->
                 <Label FontSize="Micro" TextColor="WhiteSmoke" Text="¿No tienes cuenta? Regístrate..." FontAttributes="Italic"/>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LDXF.LoginFeo">
+    <ContentPage.Content>
+        <StackLayout Padding="30" Spacing="20">
+            <Label Text="Usuario" />
+            <Entry Placeholder="Introduce tu usuario"/>
+            <Label Text="Contraseña" />
+            <Entry Placeholder="Introduce tu contraseña"/>
+            <Button Text="Connect" BackgroundColor="Green" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
