@@ -7,8 +7,8 @@
     <!--<local:Ej3></local:Ej3>-->
     <!--<local:EJ1></local:EJ1>-->
     <!--<local:Ej2></local:Ej2>-->
-    <!--<local:LoginFeo></local:LoginFeo>-->
     <local:LoginSample></local:LoginSample>
+    <!--<local:LoginFeo></local:LoginFeo>-->
     <local:RegisterSample></local:RegisterSample>
     <local:LikeWebContent></local:LikeWebContent>
     <!--<local:LoginSampleV2></local:LoginSampleV2>-->
